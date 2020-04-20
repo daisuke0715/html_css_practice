@@ -1,0 +1,462 @@
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: #ec715f;
+}
+nav img {
+    height: 70px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 70px;
+    position: absolute;
+    right: 0;
+}
+li {
+    float: left;
+    margin: 0 30px;
+}
+li a {
+    color: #FAFAFA;
+    font-size: 16px;
+}
+.header-nav {
+    display: flex;
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+.menu-box {
+    display: none;
+}
+/*************************** 
+            nav 
+****************************/
+
+
+.main-visual {
+    height: 650px;
+    width: 100%;
+    background-image: url(./images/mv.png);
+    background-size: cover;
+    background-position: center;
+}
+.main-visual-text {
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.title-text {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+.content-text {
+    font-size: 20px;
+}
+/*************************** 
+        main-visual 
+****************************/
+
+
+.portfolio {
+    padding: 90px 0;
+    width: 100%;
+    background-color: #eceff1;
+}
+.portfolio::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.texts-group {
+    text-align: center;
+    color: #000000;
+}
+h2 {
+    font-size: 32px;
+}
+h2::after {
+    content:'';
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #ec715f;
+    margin:  8px auto 0 auto;
+}
+.portfolio p {
+    font-size: 16px;
+    margin: 30px 0;
+    font-weight: 300;
+}
+.portfolio img {
+    width: 300px;
+    height: 250px;
+}
+.portfolio-boxes {
+    width: 920px;
+    margin: 0 auto;
+}
+.portfolio-box {
+    font-size: 0;
+    margin-bottom: 10px;
+    float: left;
+}
+.portfolio-second-element {
+    margin-left: 10px;    
+    margin-right: 10px;    
+}
+/*************************** 
+        portfolio 
+****************************/
+
+
+.feature {
+    padding: 90px 0;
+    width: 100%;
+}
+.feature-boxes {
+    width: 980px;
+    margin: 0 auto;
+}
+.feature-boxes::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.feature-box {
+    width: 320px;
+    text-align: center;
+    float: left;
+}
+.texts-group p {
+    font-size: 16px;
+    margin: 30px 0;
+    font-weight: 300;
+}
+.feature-box h3 {
+    font-size: 20px;
+    color: #000000;
+    margin: 10px 0;
+} 
+.feature-box p {
+    text-align: left !important;
+    
+} 
+.feature i {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+.feature-second-box {
+    margin: 0 10px;
+}
+/*************************** 
+         feature 
+****************************/
+
+
+.profile {
+    background-color: #eceff1;
+    padding: 90px 0;
+}
+.profile p {
+    margin: 30px 0;
+}
+.profile-area {
+    width: 1024px;
+    margin: 0 auto;
+}
+.profile-img {
+    width: 512px;
+    float: left;
+    text-align: center;
+}
+.profile-img img {
+    border-radius: 50%;
+}
+.profile-texts {
+    width: 512px;
+    float: left;
+}
+.profile-area::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.myinfo {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+.myname-description {
+    font-size: 16px;
+    margin: 0 0 20px 0 !important;
+    color: #000000;
+}
+.myskills-description {
+    font-size: 16px;
+    color: #000000;
+    margin: 0 !important;
+}
+/*************************** 
+         profile 
+****************************/
+
+
+.contact {
+    padding: 90px 0;
+}
+.contact p {
+    margin: 30px 0;
+}
+.contact-area {
+    width: 800px;
+    margin: 0 auto;
+}
+.contact-mail-and-phone {
+    width: 400px;
+    float: left;
+}
+.mail-and-phone {
+    text-align: center;
+}
+.contact-sns {
+    width: 400px;
+    float: left;
+    text-align: center;
+}
+.contact::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.contact h3 {
+    font-size: 20px;
+    margin: 0 80px 5px 0 !important;
+    
+}
+.contact i {
+    font-size: 50px;
+}
+.contact-second {
+    margin: 0 20px;
+}
+.contact a {
+    color: #000000;
+    text-decoration: underline;
+}
+.mail {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+/*************************** 
+         contact 
+****************************/
+
+
+
+footer {
+    height: 60px;
+    font-size: 16px;
+    color: #FAFAFA;
+    background-color: #ec715f;
+    text-align: center;
+    line-height: 60px;
+}
+/****************************
+          footer 
+****************************/
+
+
+
+/****************************
+      レスポンシブデザイン 
+****************************/
+
+@media screen and (max-width: 768px){
+    .header-nav {
+        width: 90%;
+        height: 50px;
+    }
+    ul {
+        display: none;
+    }
+    .menu-box {
+        display: inline-block;
+        border: 1px solid #FAFAFA;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        padding: 10px;
+        
+    }
+    .list-bar {
+        display: block;
+        width: 25px;
+        height: 2px;
+        margin: 5px auto;
+        background-color: #FAFAFA;
+    }
+    /*************************** 
+                nav 
+    ****************************/
+
+
+    .main-visual{
+        background-image: url(./images/code.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .main-visual-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .title-text{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .content-text{
+        font-size: 18px;
+    }
+
+    /*************************** 
+            main-visual 
+    ****************************/
+    .portfolio{
+        width: 100%;
+        
+    }
+    .portfolio-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .portfolio-boxes {
+        width: 100%;
+       
+    }
+    .portfolio-box {
+        width: 100%;
+        text-align: center;
+    }
+    .portfolio-box img:nth-child(odd){
+        display: none;
+    }
+    .portfolio-box img:nth-child(even){
+        margin-bottom: 10px;
+    }
+    .portfolio-second-element {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    /*************************** 
+            portfolio 
+    ****************************/
+
+
+
+    .feature{
+        width: 100%;
+    }
+    .feature-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .feature-boxes {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .feature-box {
+        display: block;
+        float: none ;
+        width: 100%;
+    }
+    /*************************** 
+            feature 
+    ****************************/
+
+
+
+    .profile {
+        width: 100%;
+    }
+    .profile-container {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .profile-img {
+        float: none;
+        width: 100%;
+    }
+
+    .profile-img img {
+        width: 250px;
+        height: 250px;
+        display: inline-block;
+    }
+    .myinfo {
+        margin: 20px 0 5px 0;
+    }
+    .profile-texts {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-right: 0;
+    }
+    .profile-area {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .myskills-description {
+        text-align: center;
+    }
+    /*************************** 
+            profile 
+    ****************************/
+
+
+
+    .contact {
+        width: 100%;
+    }
+    .content-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contact-area{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contact-mail-and-phone {
+        float: none !important;
+        width: 100% !important;
+        display: inline-block;
+    }
+    .mail-and-phone {
+        float: none;
+    }
+    .contact h3 {
+        margin: 0 !important;
+    }
+    .contact-sns {
+        float: none;
+        width: 100%;
+        display: inline-block;
+    }
+    /*************************** 
+            contact 
+    ****************************/
+
+    footer p{
+        margin-bottom: 0;
+    }
+
+
+}
