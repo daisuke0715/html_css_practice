@@ -1,3 +1,6 @@
+p,h2,h3 {
+    word-wrap: break-word;
+}
 nav {
     height: 70px;
     width: 100%;
@@ -96,11 +99,11 @@ h2::after {
     width: 300px;
     height: 250px;
 }
-.portfolio-boxes {
+.portfolio-container-second {
     width: 920px;
     margin: 0 auto;
 }
-.portfolio-box {
+.portfolio-boxes {
     font-size: 0;
     margin-bottom: 10px;
     float: left;
@@ -141,10 +144,6 @@ h2::after {
     font-size: 20px;
     color: #000000;
     margin: 10px 0;
-} 
-.feature-box p {
-    text-align: left !important;
-    
 } 
 .feature i {
     font-size: 60px;
@@ -328,30 +327,38 @@ footer {
     ****************************/
     .portfolio{
         width: 100%;
-        
+    }
+    .portfolio h2 {
+        width: 100%;
     }
     .portfolio-container {
         width: 90%;
         margin: 0 auto;
     }
-    .portfolio-boxes {
+    .portfolio-container-second {
         width: 100%;
        
     }
-    .portfolio-box {
+    .portfolio-boxes {
         width: 100%;
         text-align: center;
     }
-    .portfolio-box img:nth-child(odd){
+    .portfolio-boxes img:nth-child(odd){
         display: none;
     }
-    .portfolio-box img:nth-child(even){
+    .portfolio-boxes img:nth-child(even){
         margin-bottom: 10px;
     }
     .portfolio-second-element {
         margin-right: 0;
         margin-left: 0;
     }
+    .portfolio-box img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
     /*************************** 
             portfolio 
     ****************************/
@@ -374,6 +381,7 @@ footer {
         float: none ;
         width: 100%;
     }
+    
     /*************************** 
             feature 
     ****************************/
@@ -394,9 +402,8 @@ footer {
     }
 
     .profile-img img {
-        width: 250px;
-        height: 250px;
         display: inline-block;
+        width: 70%;
     }
     .myinfo {
         margin: 20px 0 5px 0;
